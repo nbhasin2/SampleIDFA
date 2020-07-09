@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43DB68B624B7666500DB0BAB /* TrackingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DB68B524B7666500DB0BAB /* TrackingViewModel.swift */; };
 		43E0EEE724B29CBB008FADB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E0EEE624B29CBB008FADB2 /* AppDelegate.swift */; };
 		43E0EEE924B29CBB008FADB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E0EEE824B29CBB008FADB2 /* SceneDelegate.swift */; };
 		43E0EEEB24B29CBB008FADB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E0EEEA24B29CBB008FADB2 /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43DB68B524B7666500DB0BAB /* TrackingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingViewModel.swift; sourceTree = "<group>"; };
 		43E0EEE324B29CBB008FADB2 /* SampleIDFA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleIDFA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E0EEE624B29CBB008FADB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43E0EEE824B29CBB008FADB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				43E0EEE624B29CBB008FADB2 /* AppDelegate.swift */,
 				43E0EEE824B29CBB008FADB2 /* SceneDelegate.swift */,
 				43E0EEEA24B29CBB008FADB2 /* ContentView.swift */,
+				43DB68B524B7666500DB0BAB /* TrackingViewModel.swift */,
 				43E0EEEC24B29CBC008FADB2 /* Assets.xcassets */,
 				43E0EEF124B29CBC008FADB2 /* LaunchScreen.storyboard */,
 				43E0EEF424B29CBC008FADB2 /* Info.plist */,
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43E0EEE724B29CBB008FADB2 /* AppDelegate.swift in Sources */,
+				43DB68B624B7666500DB0BAB /* TrackingViewModel.swift in Sources */,
 				43E0EEE924B29CBB008FADB2 /* SceneDelegate.swift in Sources */,
 				43E0EEEB24B29CBB008FADB2 /* ContentView.swift in Sources */,
 			);
@@ -438,8 +442,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SampleIDFA/Preview Content\"";
+				DEVELOPMENT_TEAM = UR4UKG5R68;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SampleIDFA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,8 +464,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SampleIDFA/Preview Content\"";
+				DEVELOPMENT_TEAM = UR4UKG5R68;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SampleIDFA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
