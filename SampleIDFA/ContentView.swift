@@ -53,6 +53,7 @@ struct ContentView: View {
                 Text(buttonText)
             }
         }.onAppear {
+            // Update the button text based on the IDFA authorization state
             if viewModel.isAuthorized() {
                 buttonText = "Tap to show IDFA"
             } else if viewModel.shouldShowAppTrackingDialog() {
